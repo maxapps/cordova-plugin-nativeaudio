@@ -3,9 +3,10 @@
 //  NativeAudio.java
 //
 //  Created by Sidney Bofah on 2014-06-26.
+//	Modified for use with tabris.js by Jeff Carver on 2016-10-26.
 //
 
-package com.rjfun.cordova.plugin.nativeaudio;
+package com.maxapps.cordova.plugin.nativeaudio;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -82,7 +83,8 @@ public class NativeAudio extends CordovaPlugin implements AudioManager.OnAudioFo
 					voices = data.getInt(3);
 				}
 
-				String fullPath = "www/".concat(assetPath);
+				// String fullPath = "www/".concat(assetPath);
+				String fullPath = assetPath;
 
 				Context ctx = cordova.getActivity().getApplicationContext();
 				AssetManager am = ctx.getResources().getAssets();

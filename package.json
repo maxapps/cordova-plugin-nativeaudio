@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-nativeaudio",
-  "version": "3.0.7",
-  "description": "Cordova/PhoneGap Plugin for low latency Native Audio Playback, must have for HTML5 games",
+  "name": "cordova-tabris-nativeaudio",
+  "version": "0.1.0",
+  "description": "Cordova/Tabris.js plugin for low latency aAudio playback, intended for use creaing games.",
   "cordova": {
-    "id": "cordova-plugin-nativeaudio",
+    "id": "cordova-tabris-nativeaudio",
     "platforms": [
       "android",
       "ios"
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatinghotpot/cordova-plugin-nativeaudio.git"
+    "url": "https://github.com/maxapps/cordova-plugin-nativeaudio.git"
   },
   "bugs": {
-    "url": "https://github.com/floatinghotpot/cordova-plugin-nativeaudio/issues"
+    "url": "https://github.com/maxapps/cordova-plugin-nativeaudio/issues"
   },
   "keywords": [
     "cordova",
@@ -23,18 +23,14 @@
     "audio",
     "game",
     "mp3",
-    "rjfun"
+    "tabris"
   ],
   "author": {
-    "name": "Andrew Trice"
+    "name": "Andrew Trice,Jeff Carver"
   },
   "contributors": [{
-    "name": "Andrew Trice"
-  },{
-    "name": "Raymond Xie",
-    "email": "rjfun.mobile@gmail.com"
-  },{
-    "name": "Sidney Bofah"
+    "name": "Jeff Carver",
+    "email": "maxapps@gmail.com"
   }],
   "license": "MIT"
 }

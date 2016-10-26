@@ -1,6 +1,6 @@
-#Cordova Native Audio Plugin
+#Cordova Native Audio Plugin for Tabris.js
 
-Cordova / PhoneGap 3.5+ extension for Native Audio playback, aimed at HTML5 gaming and audio applications which require minimum latency, polyphony and concurrency.
+Cordova 6 extension for native audio playback with minimum latency, polyphony and concurrency, aimed at creating games using the tabris.js platform.
 
 ## Contents
 
